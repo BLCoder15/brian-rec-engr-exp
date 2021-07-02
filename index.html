@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Brian's Record Engineering Experience</title>
+<style id="jsbin-css">
+body {
+  background-color: #66CDAA;
+  color: DarkSlateBlue;
+}
+
+.hidden {
+  display: none;
+}
+</style>
+</head>
+<body>
+  <h1>Brian Lewis</h1>
+  <div>
+ <span>lewis.bri30@gmail.com</span>
+    <span> * </span>
+    <span>(123) 456-789</span>
+    <span> * </span>
+    <span>Brooklyn, NY 12345</span>
+  </div>
+<hr>
+  
+  <h3 id="aboutme">About Me</h3>
+  <p id="aboutme_txt">Hardworking professional who has maintained a career-long presence in the music field. Successful at combining the art of recording with advanced computerized techniques. Adept at working with individual performers to optimize sound and abilities.</p>
+  <h3 id="work_ex">Work Experience</h3> 
+<p><b>Sheer Recording Studios</b> <br><i>Philadelphia, PA  -  12/2018 - 6/2020</i></p>
+<ul>
+  <li>Provided booth direction to voice over talent for approximately 600 auditions and various other voice over recordings</li>
+  <li>Responsible for client satisfaction and the efficient administration of daily studio operations and cleanliness</li>
+  <li>Assisted in the successful and continuing relationships between the studio and its clients, which include local and international advertising agencies, news agencies, and production companies</li>
+</ul>
+
+<p><b>Quad Recording Studios</b> <br><i>New York, NY  -  10/2014 - 10/2018</i></p>
+<ul>
+  <li>Managed all aspects of recording sessions for both music and television clients. Responsibilities included mic placement, recording system setup and operation during sessions</li>
+  <li>Worked as Assistant Engineer for high profile clients including Wyclef Jean, Maxwell</li>
+  <li>Served as ProTools engineer for PBS television shows including recording, editing, and vocal correction</li>
+</ul>
+
+<h3 id="educ">Education</h3>
+<p id="educ_txt"><b>New York University</b><br>New York, NY - 05/2009
+<br><b><i>Bachelor of Music:</i></b><br>Music Technology (Recording Arts)</p>
+
+<h3 id="hobby">Hobbies</h3>
+<p id="hobby_txt">Attending live performances, music production, photography, reading, cooking</p>
+<script id="jsbin-javascript">
+console.clear();
+
+let h3 = document.getElementById("aboutme")
+let h3_1 = document.getElementById("work_ex")
+let h3_2 = document.getElementById("educ")
+let h3_3 = document.getElementById("hobby")
+
+let p1 = document.getElementById("aboutme_txt")
+let p1_1 = document.getElementById("educ_txt")
+let p1_2 = document.getElementById("hobby_txt")
+
+h3.addEventListener('click', function(){
+  p1.classList.toggle('hidden');
+})
+
+h3.addEventListener('click', function(){
+  p1_1.classList.toggle('hidden');
+})
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">body {
+  background-color: #66CDAA;
+  color: DarkSlateBlue;
+}
+
+.hidden {
+  display: none;
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">console.clear();
+
+let h3 = document.getElementById("aboutme")
+let h3_1 = document.getElementById("work_ex")
+let h3_2 = document.getElementById("educ")
+let h3_3 = document.getElementById("hobby")
+
+let p1 = document.getElementById("aboutme_txt")
+let p1_1 = document.getElementById("educ_txt")
+let p1_2 = document.getElementById("hobby_txt")
+
+h3.addEventListener('click', function(){
+  p1.classList.toggle('hidden');
+})
+
+h3.addEventListener('click', function(){
+  p1_1.classList.toggle('hidden');
+})</script></body>
+</html>
